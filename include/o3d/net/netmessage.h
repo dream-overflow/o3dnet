@@ -24,7 +24,7 @@ class NetBuffer;
 
 /**
  * @brief E_RunMessage invoke an error during run a net message.
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  * @date 2013-12-04
  */
 class O3D_NET_API E_RunMessage : public E_BaseException

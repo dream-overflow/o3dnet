@@ -1,7 +1,7 @@
 /**
  * @file proxyclient.h
  * @brief 
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  * @date 2001-12-25
  * @copyright Copyright (c) 2001-2017 Dream Overflow. All rights reserved.
  * @details 
@@ -17,7 +17,7 @@ namespace net {
 
 /**
  * @brief Proxy client
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  * @date 2013-01-07
  */
 class O3D_NET_API ProxyClient : public o3d::Runnable

@@ -1,7 +1,7 @@
 /**
  * @file netserver.h
  * @brief 
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  * @date 2013-11-28
  * @copyright Copyright (c) 2001-2017 Dream Overflow. All rights reserved.
  * @details 
@@ -19,7 +19,7 @@ namespace net {
 
 /**
  * @brief
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  * @date 2013-11-28
  */
 class O3D_NET_API NetSessionAcceptor
@@ -38,7 +38,7 @@ public:
 
 /**
  * @brief NetServer Listen and accept incoming connections using an acceptor.
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  * @date 2013-11-28
  */
 class O3D_NET_API NetServer : public Runnable, public EvtHandler

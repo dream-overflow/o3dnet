@@ -1,7 +1,7 @@
 /**
  * @file netmessageadapter.h
  * @brief 
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  * @date 2013-07-21
  * @copyright Copyright (c) 2001-2017 Dream Overflow. All rights reserved.
  * @details 
@@ -19,7 +19,7 @@ namespace net {
 /**
  * @brief Abstract message class
  * @date 2013-07-21
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  */
 class O3D_NET_API AbstractNetMessage : public NetMessage
 {
@@ -68,7 +68,7 @@ protected:
 /**
  * @brief Abstract message class incoming
  * @date 2013-07-21
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  */
 class O3D_NET_API AbstractNetMessageIn : public AbstractNetMessage
 {
@@ -83,7 +83,7 @@ public:
 /**
  * @brief Abstract message class incoming helper
  * @date 2013-07-21
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  */
 template <class CLASS, UInt32 CODE>
 class O3D_NET_API_TEMPLATE NetMessageInHelper : public AbstractNetMessageIn
@@ -98,7 +98,7 @@ public:
 /**
  * @brief Abstract message class outgoing
  * @date 2013-07-21
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  */
 class O3D_NET_API AbstractNetMessageOut : public AbstractNetMessage
 {
@@ -110,7 +110,7 @@ public:
 /**
  * @brief Abstract message class outgoing helper
  * @date 2013-07-21
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  */
 template <UInt32 CODE>
 class O3D_NET_API_TEMPLATE NetMessageOutHelper : public AbstractNetMessageOut
@@ -125,7 +125,7 @@ public:
  * It use of a multi-byte message code from 1 to 4 bytes, and manage the message size
  * in a 16 bits integer. It can be used with the DefaultNetMessageFactory.
  * @date 2013-07-21
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  */
 class O3D_NET_API DefaultNetMessageAdapter : public NetReadWriteAdapter
 {

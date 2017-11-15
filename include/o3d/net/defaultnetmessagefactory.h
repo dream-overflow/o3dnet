@@ -1,7 +1,7 @@
 /**
  * @file defaultnetmessagefactory.h
  * @brief 
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  * @date 2013-07-22
  * @copyright Copyright (c) 2001-2017 Dream Overflow. All rights reserved.
  * @details 
@@ -22,7 +22,7 @@ namespace net {
  * Build message from NetBuffer according to registred net message, and using
  * a dynamique net message type from 1 to 4 bytes. It can be used with the
  * DefaultNetMessageAdapter.
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  * @date 2013-07-22
  */
 class O3D_NET_API DefaultNetMessageFactory : public NetMessageFactory

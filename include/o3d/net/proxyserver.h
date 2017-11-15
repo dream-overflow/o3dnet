@@ -2,7 +2,7 @@
  * @file proxyserver.h
  * @brief 
  * @author Patrice GILBERT (patrice.gilbert@revolutining.com) 
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  * @date 2013-01-09
  * @copyright Copyright (c) 2001-2017 Dream Overflow. All rights reserved.
  * @details 
@@ -26,7 +26,7 @@ class ProxyServer;
 
 /**
  * @brief Proxy server net session instance.
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  * @date 2013-01-09
  * @todo Use an x509 certificate with openSSL
  */
@@ -114,7 +114,7 @@ protected:
 
 /**
  * @brief Proxy server acceptor abstract class to inherit.
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  * @date 2013-01-07
  */
 class O3D_NET_API ProxyServerAcceptor : public NetSessionAcceptor
@@ -134,7 +134,7 @@ private:
 
 /**
  * @brief Proxy server
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  * @date 2013-01-07
  */
 class O3D_NET_API ProxyServer

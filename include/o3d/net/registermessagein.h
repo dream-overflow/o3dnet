@@ -2,7 +2,7 @@
  * @file registermessagein.h
  * @brief 
  * @author Patrice GILBERT (patrice.gilbert@revolutining.com)  
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  * @date 2001-12-25
  * @copyright Copyright (c) 2001-2017 Dream Overflow. All rights reserved.
  * @details 
@@ -21,7 +21,7 @@ namespace net {
  * @brief Helper to register a message.
  * Usage: in a cpp file do RegisterNetMessageIn<MessageClassNameIn>::R inst(factory);
  * @date 2013-07-21
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  */
 template <class T>
 struct RegisterNetMessageIn

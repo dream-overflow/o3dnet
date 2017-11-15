@@ -1,7 +1,7 @@
 /**
  * @file proxymessages.h
  * @brief 
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  * @date 2001-12-25
  * @copyright Copyright (c) 2001-2017 Dream Overflow. All rights reserved.
  * @details 
@@ -19,7 +19,7 @@ namespace net {
 
 /**
  * @brief Proxy server challenge out.
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  * @date 2014-01-15
  */
 class ProxyChallengeOut : public NetMessageOutHelper<1>
@@ -51,7 +51,7 @@ private:
 
 /**
  * @brief Proxy client Challenge in (to register into the ProxyClient).
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  * @date 2014-01-15
  */
 class ProxyChallengeIn : public NetMessageInHelper<ProxyChallengeIn, 1>
@@ -70,7 +70,7 @@ private:
 
 /**
  * @brief Proxy client certificate message out
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  * @date 2014-01-15
  */
 class ProxyCertificateOut : public NetMessageOutHelper<1>
@@ -97,7 +97,7 @@ private:
 
 /**
  * @brief Proxy server certificate message in (to register into the ProxyServer).
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  * @date 2014-01-15
  */
 class ProxyCertificateIn : public NetMessageInHelper<ProxyCertificateIn, 1>

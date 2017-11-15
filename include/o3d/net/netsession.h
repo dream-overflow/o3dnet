@@ -1,7 +1,7 @@
 /**
  * @file netsession.h
  * @brief 
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  * @date 2013-11-29
  * @copyright Copyright (c) 2001-2017 Dream Overflow. All rights reserved.
  * @details 
@@ -22,7 +22,7 @@ namespace net {
 
 /**
  * @brief NetSession A runnable session with input and output socket channel and message processing.
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  * @date 2013-11-29
  */
 class O3D_NET_API NetSession : public Runnable

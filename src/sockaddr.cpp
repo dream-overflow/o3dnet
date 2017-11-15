@@ -1,7 +1,7 @@
 /**
  * @file sockaddr.cpp
  * @brief Implementation of SockAddr.h
- * @author Frederic SCHERMA (frederic.scherma@gmail.com)
+ * @author Frederic SCHERMA (frederic.scherma@dreamoverflow.org)
  * @date 2013-07-21
  * @copyright Copyright (c) 2001-2017 Dream Overflow. All rights reserved.
  * @details 
