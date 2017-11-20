@@ -59,4 +59,3 @@ void Socket::quit()
 }
 
 #endif // O3D_WIN_SOCKET
-
