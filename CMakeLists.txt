@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 2.6)
+cmake_minimum_required (VERSION 2.8)
 project (O3D_NET)
 
 # Set a default build type if none was specified
@@ -115,4 +115,3 @@ endif()
 
 add_subdirectory(src)
 add_subdirectory(test)
-
