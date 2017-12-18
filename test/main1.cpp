@@ -256,14 +256,12 @@ public:
 		m_client->shutdown();
 		disconnect(Debug::instance());
 		disconnect(m_client);
-        Debug::instance()->getDefaultLog().writeFooterLog();
 	}
 
 	static Int32 main()
 	{
         Debug::instance()->setDefaultLog("network1.log");
         Debug::instance()->getDefaultLog().clearLog();
-        Debug::instance()->getDefaultLog().writeHeaderLog();
 
         Socket::init();
 

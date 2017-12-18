@@ -24,22 +24,32 @@
 //---------------------------------------------------------------------------------------
 
 #if (defined(O3D_UNIX) || defined(O3D_MACOSX) || defined(SWIG))
-    #define O3D_NET_API
+  #if __GNUC__ >= 4
+    #define O3D_NET_API __attribute__ ((visibility ("default")))
+    #define O3D_NET_API_PRIVATE __attribute__ ((visibility ("hidden")))
     #define O3D_NET_API_TEMPLATE
+  #else
+    #define O3D_NET_API
+    #define O3D_NET_API_PRIVATE
+    #define O3D_NET_API_TEMPLATE
+  #endif
 #elif defined(O3D_WINDOWS)
     // export DLL
     #ifdef O3D_NET_EXPORT_DLL
         #define O3D_NET_API __declspec(dllexport)
+        #define O3D_NET_API_PRIVATE
         #define O3D_NET_API_TEMPLATE
     #endif
     // import DLL
     #ifdef O3D_NET_IMPORT_DLL
         #define O3D_NET_API __declspec(dllimport)
+        #define O3D_NET_API_PRIVATE
         #define O3D_NET_API_TEMPLATE
     #endif
     // static (no DLL)
     #ifdef O3D_NET_STATIC_LIB
         #define O3D_NET_API
+        #define O3D_NET_API_PRIVATE
         #define O3D_NET_API_TEMPLATE
     #endif
 #endif

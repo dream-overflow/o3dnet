@@ -362,7 +362,7 @@ void SockAddr6::setSockAddr(const String &hostname, UInt16 _port)
 	m_hostname = hostname;
 
 #ifdef O3D_DBG_NET
-	O3D_LOG(String("setSockAddr OK with ") + m_hostname);
+    O3D_MESSAGE(String("setSockAddr OK with ") + m_hostname);
 #endif
 }
 

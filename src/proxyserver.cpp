@@ -68,13 +68,15 @@ void ProxyServer::stop()
 
 void ProxyServer::send(Int32 sessionId, NetMessage *msg)
 {
-    FastMutexLocker locker(m_mutex);
+    m_mutex.lock();
 
     auto it = m_sessions.find(sessionId);
-    if (it == m_sessions.end())
+    if (it == m_sessions.end()) {
+        m_mutex.unlock();
         O3D_ERROR(E_InvalidParameter("Session id"));
+    }
 
-    locker.unlock();
+    m_mutex.unlock();
 
     // and send the message
     it->second->send(msg);

@@ -269,7 +269,7 @@ Int32 HttpUpdater::run(void*)
 
 				String fullpath = m_rootpath + filename;
 
-				File::adaptPath(fullpath);
+                FileManager::adaptPath(fullpath);
 
                 InStream* pis = nullptr;
 
@@ -383,7 +383,7 @@ Int32 HttpUpdater::downThreadFunc(void*)
 
 			// download the file
 			fullpath = m_rootpathBis + filename;
-			File::adaptPath(fullpath);
+            FileManager::adaptPath(fullpath);
 
 			text = String("Download: ") + filename;
 			*m_currentfile = text; !m_currentfile;
